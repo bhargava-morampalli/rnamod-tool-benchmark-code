@@ -133,8 +133,8 @@ All figures are saved to auto-created folders inside `rnamod-tool-benchmark-code
 
 | Output Folder | Contents |
 |---|---|
-| `plots/` | Fig. 1, 2, Supp. Fig. S1, S2 |
+| `data_quality_figures/` | Fig. 1, 2, Supp. Fig. S1, S2 |
 | `completeness_inflation_figures/` | Supp. Fig. S7, S8 |
-| `clean_figures_chapter3_copy/` | Fig. 3–9, Supp. Fig. S3–S6, S9, CSV summary tables |
+| `metric_figures/` | Fig. 3–9, Supp. Fig. S3–S6, S9, CSV summary tables |
 
 Tables (e.g., GT recovery, operating points) are exported as CSV files alongside the figures in `clean_figures_chapter3_copy/`.
