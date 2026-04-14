@@ -1,5 +1,3 @@
-# rRNA Modification Detection Tool Benchmarking
-
 Repository for reproducing all figures from the paper:
 **Benchmarking Tools for Identification of rRNA Modifications**
 
@@ -7,6 +5,7 @@ Repository for reproducing all figures from the paper:
 
 ## Overview
 
+#### **Included code overview**
 Ten tools are evaluated across two rRNA references (16S and 23S), three biological replicates, and 25 coverage levels (5×–1000×). Three Jupyter notebooks generate all manuscript figures.
 
 | Notebook | Figures Generated |
@@ -14,6 +13,12 @@ Ten tools are evaluated across two rRNA references (16S and 23S), three biologic
 | `Figs_1-2-S1-S2_notebook.ipynb` | Fig. 1, Fig. 2, Supp. Fig. S1, S2 |
 | `completeness_inflation_plots.ipynb` | Supp. Fig. S7, S8 |
 | `auroc_auprc_f1.ipynb` | Fig. 3–9, Supp. Fig. S3–S6, S9 |
+
+#### **Supplementary Tables**
+| Supplementary Table | File | Contents |
+|---|---|---|
+| S7 | `Supplementary_Table_S7_Statistical_Metrics.xlsx` | AUPRC, AUROC values for all tools across all coverage levels tested (for both all-position and reported-positions scopes) |
+| S8 | `Supplementary_Table_S8_Tool_Combinations.xlsx` | Full data for all tool combinations at exact position and offset corrected positions along with their FP and known modification site recovery |
 
 ---
 
